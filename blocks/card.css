@@ -39,7 +39,7 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 627px) {
+@media screen and (max-width: 901px) {
   .card__image {
     height: 288px;
   }
@@ -56,7 +56,7 @@
   }
 }
 
-@media screen and (max-width: 901px) {
+@media screen and (max-width: 651px) {
   .card__image {
     height: 288px;
   }
