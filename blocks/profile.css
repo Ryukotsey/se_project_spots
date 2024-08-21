@@ -63,6 +63,7 @@
   width: 149px;
   height: 52px;
   border-radius: 8px;
+  border-style: none;
   margin-top: auto;
   color: #fcf5e5;
 }
@@ -114,5 +115,33 @@
   .profile__add-button {
     margin: 0;
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 901px) {
+  .profile {
+    padding-top: 20px;
+  }
+
+  .profile__avatar {
+    margin: 0 0 12px;
+  }
+
+  .profile__name {
+    font-size: 20px;
+    line-height: 1;
+    margin-bottom: 6px;
+  }
+
+  .profile__description {
+    margin-bottom: 32px;
+  }
+
+  .profile__column {
+    margin-bottom: 20px;
+  }
+
+  .profile__add-button {
+    width: 149px;
   }
 }

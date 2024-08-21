@@ -22,3 +22,13 @@
     max-width: 288px;
   }
 }
+
+@media screen and (max-width: 901px) {
+  .cards__list {
+    grid-template-columns: repeat(auto-fit, 288px);
+  }
+
+  .cards {
+    max-width: 99vh;
+  }
+}
