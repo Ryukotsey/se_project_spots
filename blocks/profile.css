@@ -68,15 +68,15 @@
   color: #fcf5e5;
 }
 
-.profile__add-button:hover {
-  opacity: 80%;
-  cursor: pointer;
-}
-
-.profile__add-button_icon {
+.profile__add-button-icon {
   width: 12px;
   height: 12px;
   padding: 0 2px;
+}
+
+.profile__add-button:hover {
+  opacity: 80%;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 1334px) {
