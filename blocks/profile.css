@@ -20,7 +20,7 @@
 .profile__name {
   font-weight: 500;
   font-size: 32px;
-  line-height: 32px;
+  line-height: 1;
   margin: 0 0 12px;
   text-overflow: ellipsis;
   overflow: hidden;
@@ -43,7 +43,7 @@
   font-weight: 500;
   margin-top: auto;
   opacity: 70%;
-  line-height: 16px;
+  line-height: 1;
   background-color: transparent;
   border-style: none;
   width: fit-content;
@@ -57,7 +57,7 @@
 
 .profile__add-button {
   font-weight: 500;
-  line-height: 16px;
+  line-height: 1;
   margin-left: auto;
   background-color: #212121;
   width: 149px;
@@ -95,7 +95,7 @@
 
   .profile__name {
     font-size: 20px;
-    line-height: 20px;
+    line-height: 1;
     margin-bottom: 6px;
   }
 
