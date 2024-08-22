@@ -1,12 +1,11 @@
 # Spots
 
-This is the third project of the Software Engineering program at TripleTen. It was created using HTML and CSS based on figma design.
+This is the third project of the Software Engineering program at TripleTen. It was created using HTML and CSS based on figma design. This project is the start to an interactive social media web application where users can add and remove photos, like photos of other users, and make a few minor adjustments to their profile such as their name, profile picture, and a status/description about themself or other users.
 
 ## Project Features
 
 - Semantic HTML5
 - Flexbox
 - Grid
-- Positioning
 - Flat BEM file structure
 - Responsive design for different devices
