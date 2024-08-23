@@ -9,3 +9,7 @@ This is the third project of the Software Engineering program at TripleTen. It w
 - Grid
 - Flat BEM file structure
 - Responsive design for different devices
+
+### A link to the video containing information on this project
+
+[Link to video](https://drive.google.com/file/d/1CHFFblwMCbDb2sxo24UFf7nIwozfs0qJ/view?usp=sharing "Spots Video")
