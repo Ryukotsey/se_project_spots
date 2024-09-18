@@ -7,6 +7,8 @@ This is the third project of the Software Engineering program at TripleTen. It w
 - Semantic HTML5
 - Flexbox
 - Grid
+- JavaScript
+- Functional Forms
 - Flat BEM file structure
 - Responsive design for different devices
 
