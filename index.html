@@ -57,6 +57,7 @@
                     aria-label="like button"
                     class="card__like-button"
                   ></button>
+                  <button class="card__delete-button"></button>
                 </div>
               </li>
             </template>
@@ -92,6 +93,42 @@
             <button type="submit" class="modal__submit-button">Save</button>
           </form>
         </div>
+      </div>
+      <div class="modal" id="add-card-modal">
+        <div class="modal__container">
+          <button type="button" class="modal__close-button"></button>
+          <h2 class="modal__title">New post</h2>
+          <form name="add-card-modal" class="modal__form" id="add-card-modal">
+            <label for="add-card-link-input" class="modal__label">
+              Image link
+              <input
+                placeholder="Paste a link to the picture"
+                id="add-card-link-input"
+                type="url"
+                class="modal__input"
+                name="link"
+              />
+            </label>
+            <label for="add-card-name-input" class="modal__label">
+              Caption
+              <input
+                placeholder="Type your caption"
+                id="add-card-name-input"
+                type="text"
+                class="modal__input"
+                name="name"
+              />
+            </label>
+            <button type="submit" class="modal__submit-button">Save</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="modal" id="preview-modal">
+      <div class="modal__container modal__container_type_preview">
+        <button type="button" class="modal__close-button_preview"></button>
+        <img class="modal__image" src="" alt="" />
+        <p class="modal__caption"></p>
       </div>
     </div>
     <script defer src="./scripts/index.js"></script>
