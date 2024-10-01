@@ -11,6 +11,7 @@
   padding: 0 20px;
   background-color: rgba(0, 0, 0, 0.6);
   visibility: hidden;
+  opacity: 0;
   transition: visibility 0s 0.6s, opacity 0.6s;
 }
 
@@ -18,7 +19,7 @@
   visibility: visible;
   opacity: 1;
   transition-delay: 0s;
-  transition: visibility 0s, opacity 0.6s;
+  transition: visibility 0.6s, opacity 0.6s;
 }
 
 .modal__container {
@@ -81,14 +82,13 @@
   opacity: 1;
 }
 
-.modal__close-button_preview:hover {
-  cursor: pointer;
-  opacity: 0.4;
-}
-
 .modal__close-button:hover {
   cursor: pointer;
   opacity: 1;
+}
+
+.modal__close-button_preview:hover {
+  opacity: 0.4;
 }
 
 .modal__title {
