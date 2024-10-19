@@ -95,26 +95,22 @@ function handleEscapeKey(event) {
   }
 }
 
-function handleClickOutside(event) {
-  const openedModal = document.querySelector(".modal_opened");
-  if (
-    openedModal &&
-    !openedModal.querySelector(".modal__container").contains(event.target)
-  ) {
-    closeModal(openedModal);
+function handleModalOverlay(evt) {
+  if (evt.target.classList.contains("modal_opened")) {
+    closeModal(evt.target);
   }
 }
 
 function openModal(modal) {
   modal.classList.add("modal_opened");
   document.addEventListener("keydown", handleEscapeKey);
-  document.addEventListener("mousedown", handleClickOutside);
+  document.addEventListener("mousedown", handleModalOverlay);
 }
 
 function closeModal(modal) {
   modal.classList.remove("modal_opened");
   document.removeEventListener("keydown", handleEscapeKey);
-  document.removeEventListener("mousedown", handleClickOutside);
+  document.removeEventListener("mousedown", handleModalOverlay);
 }
 
 function handleEditFormSubmit(evt) {
@@ -138,10 +134,11 @@ profileEditButton.addEventListener("click", () => {
   editModalNameInput.value = profileName.textContent;
   editModalDescriptionInput.value = profileDescription.textContent;
   openModal(editModal);
-  resetValidation(editFormElement, [
-    editModalNameInput,
-    editModalDescriptionInput,
-  ]);
+  resetValidation(
+    editFormElement,
+    [editModalNameInput, editModalDescriptionInput],
+    settings
+  );
 });
 
 editModalCloseButton.addEventListener("click", () => {
