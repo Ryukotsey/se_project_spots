@@ -60,6 +60,7 @@
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
+  line-clamp: 3;
   color: #212121;
 }
 
@@ -68,6 +69,8 @@
   line-height: 1;
   margin: 0;
   text-overflow: ellipsis;
+  overflow: hidden;
+  line-clamp: 3;
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
