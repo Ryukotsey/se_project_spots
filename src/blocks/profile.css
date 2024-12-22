@@ -68,7 +68,6 @@
   line-height: 1;
   margin: 0;
   text-overflow: ellipsis;
-  overflow: hidden;
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
@@ -165,6 +164,7 @@
     width: 80px;
     position: relative;
     padding: 4px;
+    margin-right: 0;
   }
 
   .profile__avatar-button {
