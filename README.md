@@ -15,7 +15,3 @@ This is the third project of the Software Engineering program at TripleTen. It w
 ### A link to the project
 
 [Link to project](https://ryukotsey.github.io/se_project_spots/ "Spots Page")
-
-#### A link to the video containing information on this project
-
-[Link to video](https://drive.google.com/file/d/1CHFFblwMCbDb2sxo24UFf7nIwozfs0qJ/view?usp=sharing "Spots Video")
