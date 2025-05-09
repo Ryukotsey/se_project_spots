@@ -43,7 +43,7 @@
 }
 
 .card__like-button_liked {
-  background-image: url("../images/like-icon-liked.svg");
+  background: url("../images/like-icon-liked.svg") center no-repeat;
   opacity: 1;
 }
 
